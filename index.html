@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <div class="bnt-haeder">
+      <a href="#">EFFETTUA L'UPGRADE</a>
+    </div>
+  </header>
+
+  <section class="clearfix">
+    <aside>
+      <div class="aside-top">
+        <div class="aside-logo">
+          <a href="#">
+            <img src="img/logo.svg" alt="">
+            <img class="small" src="img/logo-small.svg" alt="">
+          </a>
+        </div>
+        <div class="aside-menu">
+          <ul>
+            <li id="active-menu-voice">
+              <a href="#">
+                <img src="img/home.svg" alt="">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/search.svg" alt="">
+                <span>Cerca</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/libreria.svg" alt="">
+                <span>La tua libreria</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="aside-playlist">
+          <div class="blocco-top">
+            <h2>PLAYLIST</h2>
+            <div class="add-playlists">
+              <i class="fa-regular fa-square-plus"></i>
+              <span>Crea Playlist</span>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+              <a href="#">Nome Playlist</a>
+            </li>
+            <li>
+          </ul>
+        </div>
+      </div>
+      <div class="aside-bottom">
+        <div class="app-download-icon">
+          <img src="img/download.svg" alt="">
+        </div>
+        <img class="user-img" src="img/profile.svg" alt="">
+        <div class="download-app">
+          <a href="#">
+            <img class="app-download-icon" src="img/download.svg" alt="">
+            <span>Installa app</span>
+          </a>
+        </div>
+        <div class="user">
+          <img src="img/profile.svg" alt="">
+          <span>John Doe</span>
+        </div>
+      </div>
+     </aside>
+  
+    <main>
+      <div class="main-conteiner">
+        <div class="main-nav">
+          <ul>
+            <li>
+              <a href="#">in evidenza</a>
+              <div class="line-active-nav" id="active-nav-voice"></div>
+            </li>
+            <li>
+              <a href="#">podcast</a>
+              <div class="line-active-nav"></div>
+            </li>
+            <li>
+              <a href="#">classifiche</a>
+              <div class="line-active-nav"></div>
+            </li>
+            <li>
+              <a href="#">generi e modo</a>
+              <div class="line-active-nav"></div>
+            </li>
+            <li>
+              <a href="#">nuove uscite</a>
+              <div class="line-active-nav"></div>
+            </li>
+            <li>
+              <a href="#">scopri</a>
+              <div class="line-active-nav"></div>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="row-top">
+          <h1>Recently played</h1>
+          <div class="conteiner-box-cover">
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/metal_lifting.jpg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Heavy metal</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/stranger.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Stranger Things, Vol, 1 (a Netflix Original Seriesa Soundtrack)</h3>
+              <p class="subtitle">Kyle Dixon & Michael Stein</p>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/aquietplace.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>A quiet piace</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/split.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Split</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/cure.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>A cure for wellness</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/sinister.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Sinister</h3>
+              <p class="subtitle">Subtitle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-center">
+          <h1>Creato per John Doe</h1>
+          <p class="subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+          <div class="conteiner-box-cover">
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/radar.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Release Radar</h3>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/mixdaily.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Dally Mix 1</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-bottom">
+          <h1>Artisti più popolari</h1>
+          <p class="subtitle">Più ascolti, più accurati saranno i suggerimenti</p>
+          <div class="conteiner-box-cover">
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/youg.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Release Radar</h3>
+            </div>
+            <div class="box-cover">
+              <div class="img-cover-conteiner">
+                <img src="img/einaudi.jpeg" alt="">
+                <div class="layover">
+                  <div class="fa-circle-play-conteiner">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </div>
+                </div>
+              </div>
+              <h3>Dally Mix 1</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    <div class="footer-left">
+      <div class="cover-brain-small">
+        <img src="img/sinister.jpeg" alt="">
+        <div class="name-brain">
+          <p class="title">Sinister</p>
+          <p class="name-brain-small">Brano Nome</p>
+        </div>
+      </div>
+      <div class="footer-left-icon">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-folder"></i>
+      </div>
+    </div>
+
+    <div class="footer-center">
+      <div class="footer-center-top">
+        <div class="button-conteiner">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="fa-regular fa-circle-play"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fa-solid fa-arrow-rotate-right"></i>
+          <div class="circle-fa-play"></div>
+        </div>
+      </div>
+
+      <div class="footer-center-bottom">
+        <div class="time-line">0:25</div>
+        <div class="line">
+          <div class="line-light-grey"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="time-line">4:35</div>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <div class="i-conteiner-footer-right"></div>
+      <i class="fa-solid fa-grip-lines"></i> 
+      <i class="fa-solid fa-desktop"></i>
+      <i class="fa-solid fa-volume-high"></i> 
+      <div class="line-right">
+        <div class="line-right-lightgrey"></div>
+        <div class="circle-right"></div>
+      </div>
+    </div>   
+    </div>
+  </footer>
+  
+</body>
+</html>
